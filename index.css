@@ -10,8 +10,104 @@ ORANGE: #FFD18C
 DARK ORANGE: #FFA724
 */
 
-
 html, body {
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: #eee;
+    
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0;
+    
+}
+
+nav {
+    background-color: #FFA724;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    font-weight: 900;
+}
+
+
+.buttons {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+button {
+    border: #FFD18C 2px solid;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #FFA724;
+}
+
+section {
+    display: flex;
+    justify-content: space-around; 
+    line-height: 0px;
+}
+
+section .accounts {
+    width: 50vw;
+    margin-left: 20px;
+}
+
+.account-items { 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: #FFA724 3px solid;
+    border-radius: 20px;
+    background-color: #FDF7F4;
+}
+
+.account-items:hover {
+    background-color: #FFA724;
+}
+
+section .spendings {
+    width: 50vw;
+    margin: 0 20px;
+}
+section .spending-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border: #FFA724 3px solid;
+    border-radius: 20px;
+    background-color: #FFA724;
 }

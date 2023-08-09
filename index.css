@@ -1,15 +1,3 @@
-/*
-COLOR PALETTE
-
-BLACK: #000000
-
-WHITE: #FFFFFF
-LIGHT: #FDF7F4
-
-ORANGE: #FFD18C
-DARK ORANGE: #FFA724
-*/
-
 html, body {
     margin: 0;
     padding: 0;
@@ -77,6 +65,7 @@ section {
     display: flex;
     justify-content: space-around; 
     line-height: 0px;
+    user-select: none;
 }
 
 section .accounts {
@@ -110,4 +99,8 @@ section .spending-items {
     border: #FFA724 3px solid;
     border-radius: 20px;
     background-color: #FFA724;
+    max-width: 100%;
+}
+.selected-account{
+    background-color: #FFA724;  
 }
